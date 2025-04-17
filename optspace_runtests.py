@@ -14,7 +14,7 @@ for i in range(mat.shape[0]):
         if npr.rand() < 0.1:
             smat.append((i, j, mat[i][j]))
 
-(X, S, Y) = optspace.optspace(smat, rank_n = 10,
+(X, S, Y, _) = optspace.optspace(smat, rank_n = 10,
     num_iter = 10000,
     tol = 1e-4,
     verbosity = 1,

@@ -17,7 +17,6 @@ from sampling import calrank
 import matplotlib.pyplot as plt
 from functools import partial
 #from MCpara import PBS
-from alpharank1 import iconstruct,compute
 import scipy.stats
 U = npr.randn(20, 4)
 V = npr.randn(4, 20)

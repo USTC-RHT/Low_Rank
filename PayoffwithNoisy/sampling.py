@@ -1,6 +1,4 @@
 import sys
-sys.path.append("/home/yali/yanxue/pyOptspace")
-print(sys.path)
 import numpy as np
 import logging
 import optspace
